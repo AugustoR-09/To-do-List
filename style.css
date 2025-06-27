@@ -1,0 +1,97 @@
+html {
+	font-size: 62.5%;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #404040;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	margin: 5rem auto;
+	max-width: 60rem;
+	background-color: #fff;
+	padding: 3rem 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3.815rem;
+}
+
+.new_task_box {
+	margin: 2rem 2rem;
+	border: solid 0.1rem;
+	height: 3.3rem;
+	border-radius: 2rem;
+}
+
+#box_task {
+	border: none;
+	width: 90%;
+	font-size: 1.6rem;
+	padding: 0.6rem;
+	border-left: solid 0.1rem rgba(0, 0, 0, 0.4);
+}
+
+input:focus-visible {
+	outline: none;
+}
+
+#add {
+	border: none;
+	width: 3.5rem;
+	height: 3.1rem;
+	background: none;
+	cursor: pointer;
+	font-size: 1.8rem;
+}
+
+#tasks-pai {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-self: center;
+}
+
+.task_box {
+	margin: 1.2rem auto;
+	border: solid 0.1rem rgba(0, 0, 0, 0.7);
+	width: 80%;
+	height: 3rem;
+	border-radius: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.check {
+	margin: 0.85rem;
+	cursor: pointer;
+}
+
+p {
+	font-size: 1.6rem;
+	width: 100%;
+	flex: 2;
+	padding-right: 1rem;
+}
+
+.incompleto {
+	text-decoration: none;
+}
+
+.completo {
+	text-decoration: line-through;
+}
+
+.botao-delete {
+	cursor: pointer;
+	display: inline-block;
+}
